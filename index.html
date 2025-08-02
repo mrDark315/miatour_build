@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miatour</title>
+    <link rel="icon" href="./assets/favicon-Dmk5Aw7n.ico">
+    <link rel="icon" href="./assets/miatour-CEWG_AeQ.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon-CRxHEjTK.png">
+    <link rel="manifest" href="./assets/site-NzkE7Wtg.webmanifest">
+    <script src="https://kit.fontawesome.com/df7a476b6c.js" crossorigin="anonymous"></script>
+  <script type="module" crossorigin src="./assets/main-DelCbfXE.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/main-SdU_XAXc.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="./assets/miatour-logo-C9YEmAeO.svg" alt="miatour">
+            <ul>
+                <li><a class="anchor-link" href="#countries">країни</a></li>
+                <li><a class="anchor-link" href="#hotels">готелі</a></li>
+                <li><a class="anchor-link" href="#reviews">відгуки</a></li>
+                <li><a class="anchor-link" href="#about_us">про нас</a></li>
+                <li><a class="anchor-link" href="#contacts">контакти</a></li>
+            </ul>
+            <div class="language">
+                <p>UA</p>
+                <i class="fa-solid fa-angle-down"></i>
+            </div>
+        </header>
+
+        <main class="travel">
+            <div class="travel_title">
+                <h1>Подорожуй та досліджуй</h1>
+                <p>Розпочніть свою незабутню подорож</p>
+            </div>
+            <div class="travel_request">
+                <div class="request_title">
+                    <h4>Онлайн запит на підбір подорожі </h4>
+                    <h6>Заповніть анкету та ми зв’яжемося з вами</h6>
+                </div>
+                <div class="request_input">
+                    <form action="">
+                        <div class="input_wrapper">
+                            <input type="text" id="name" class="check_input" inputmode="text">
+                            <label for="name">Ім'я*</label>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="email" id="email" class="check_input" inputmode="email">
+                            <label for="email">Електронна пошта*</label>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="text" id="date" class="check_input" autocomplete="off" readonly>
+                            <label for="date">Дата початку туру*</label>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="text" id="country" class="check_input" inputmode="text">
+                            <label for="country">Країна*</label>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="text" id="city" inputmode="text">
+                            <label for="city">Місто</label>
+                        </div>
+                        <div class="input_wrapper">
+                            <input type="text" id="people_num" pattern="\d*" inputmode="numeric" autocomplete="off" maxlength="2">
+                            <label for="people_num">Кількість осіб</label>
+                        </div>
+                        <div class="input_wrapper info">
+                            <input type="text" id="info" inputmode="text">
+                            <label for="info">Додаткова інформація</label>
+                        </div>
+                        <button type="button" id="send_request">Відправити запит</button>
+                    </form>
+                    <div class="input_warning">Поля з зірочкою (*) обов’язкові до заповнення</div>
+                </div>
+            </div>
+        </main>
+
+        <img class="image-bg" src="./assets/main-image-bg-B1X6DXKa.png" alt="Планета Земля Фонове Зображення">
+
+        <main class="countries" id="countries">
+            <div class="countries_header">
+                    <h5 data-aos="fade-right">Популярні напрямки</h5>
+                    <a href="/src/pages/countries.html" class="next_page" data-aos="fade-left">Усі країни<i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="popular_countries" data-aos="fade-up">
+                <div class="country">
+                    <div class="img_container">
+                        <img src="./assets/italy-AEYydmYf.png" alt="Італія">
+                    </div>
+                    <p>Італія</p>
+                </div>
+                <div class="country">
+                    <div class="img_container">
+                        <img src="./assets/maldives-D0s_Qalm.png" alt="Мальдівськи острови">
+                    </div>
+                    <p>Мальдівськи острови</p>
+                </div>
+                <div class="country">
+                    <div class="img_container">
+                        <img src="./assets/austria-Bvx24wN0.png" alt="Австрія">
+                    </div>
+                    <p>Австрія</p>
+                </div>
+                <div class="country">
+                    <div class="img_container">
+                        <img src="./assets/seychelles-hPc8TasR.png" alt="Сейшельські острова">
+                    </div>
+                    <p>Сейшельські острова</p>
+                </div>
+                <div class="country">
+                    <div class="img_container">
+                        <img src="./assets/dominican-DDCLsQwP.png" alt="Домініканська республіка">
+                    </div>
+                    <p>Домініканська республіка</p>
+                </div>
+                <div class="country">
+                    <div class="img_container">
+                        <img src="./assets/spain-Bd75d1qM.png" alt="Іспанія">
+                    </div>
+                    <p>Іспанія</p>
+                </div>
+            </div>
+        </main>
+
+        <main class="hotels" id="hotels">
+            <div class="hotels_header">
+                    <h5 data-aos="fade-right">Наша готельна інспекція</h5>
+                    <a href="/src/pages/hotels.html" class="next_page" data-aos="fade-left">Усі готелі<i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="hotels_inpection" data-aos="fade-up">
+                <div class="hotel">
+                    <div class="img_container">
+                        <img src="./assets/hotel_1-D0N7UNUN.png" alt="Hotel Photo">
+                    </div>
+                    <h4>Monastero Santa Rosa Hotel</h4>
+                    <div>
+                        <h6><i class="fa-solid fa-location-dot"></i>Salerno, Italy</h6>
+                        <img src="data:image/svg+xml,%3csvg%20width='88'%20height='16'%20viewBox='0%200%2088%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_56034_11)'%3e%3cpath%20d='M8.00002%2012.1733L3.29802%2014.8053L4.34802%209.51992L0.391357%205.86125L5.74269%205.22659L8.00002%200.333252L10.2574%205.22659L15.6087%205.86125L11.652%209.51992L12.702%2014.8053L8.00002%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip1_56034_11)'%3e%3cpath%20d='M26%2012.1733L21.298%2014.8053L22.348%209.51992L18.3914%205.86125L23.7427%205.22659L26%200.333252L28.2574%205.22659L33.6087%205.86125L29.652%209.51992L30.702%2014.8053L26%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip2_56034_11)'%3e%3cpath%20d='M44%2012.1733L39.298%2014.8053L40.348%209.51992L36.3914%205.86125L41.7427%205.22659L44%200.333252L46.2574%205.22659L51.6087%205.86125L47.652%209.51992L48.702%2014.8053L44%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip3_56034_11)'%3e%3cpath%20d='M62%2012.1733L57.298%2014.8053L58.348%209.51992L54.3914%205.86125L59.7427%205.22659L62%200.333252L64.2574%205.22659L69.6087%205.86125L65.652%209.51992L66.702%2014.8053L62%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip4_56034_11)'%3e%3cpath%20d='M80%2012.1733L75.298%2014.8053L76.348%209.51992L72.3914%205.86125L77.7427%205.22659L80%200.333252L82.2574%205.22659L87.6087%205.86125L83.652%209.51992L84.702%2014.8053L80%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_56034_11'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3cclipPath%20id='clip1_56034_11'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(18)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip2_56034_11'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(36)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip3_56034_11'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(54)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip4_56034_11'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(72)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="stars">
+                    </div>
+                </div>
+                <div class="hotel">
+                    <div class="img_container">
+                        <img src="./assets/hotel_2-CpkXU12F.png" alt="Hotel Photo">
+                    </div>
+                    <h4>Grand Hotel Tremezzo</h4>
+                    <div>
+                        <h6><i class="fa-solid fa-location-dot"></i>Lake Como, Italy</h6>
+                        <img src="data:image/svg+xml,%3csvg%20width='88'%20height='16'%20viewBox='0%200%2088%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_56034_32)'%3e%3cpath%20d='M8.00002%2012.1733L3.29802%2014.8053L4.34802%209.51992L0.391357%205.86125L5.74269%205.22659L8.00002%200.333252L10.2574%205.22659L15.6087%205.86125L11.652%209.51992L12.702%2014.8053L8.00002%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip1_56034_32)'%3e%3cpath%20d='M26%2012.1733L21.298%2014.8053L22.348%209.51992L18.3914%205.86125L23.7427%205.22659L26%200.333252L28.2574%205.22659L33.6087%205.86125L29.652%209.51992L30.702%2014.8053L26%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip2_56034_32)'%3e%3cpath%20d='M44%2012.1733L39.298%2014.8053L40.348%209.51992L36.3914%205.86125L41.7427%205.22659L44%200.333252L46.2574%205.22659L51.6087%205.86125L47.652%209.51992L48.702%2014.8053L44%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip3_56034_32)'%3e%3cpath%20d='M62%2012.1733L57.298%2014.8053L58.348%209.51992L54.3914%205.86125L59.7427%205.22659L62%200.333252L64.2574%205.22659L69.6087%205.86125L65.652%209.51992L66.702%2014.8053L62%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip4_56034_32)'%3e%3cpath%20d='M80%2012.1733L75.298%2014.8053L76.348%209.51992L72.3914%205.86125L77.7427%205.22659L80%200.333252L82.2574%205.22659L87.6087%205.86125L83.652%209.51992L84.702%2014.8053L80%2012.1733ZM80%2010.6453L82.8314%2012.2299L82.1987%209.04792L84.5807%206.84459L81.3587%206.46259L80%203.51659L78.6414%206.46325L75.4194%206.84459L77.8014%209.04792L77.1687%2012.2299L80%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_56034_32'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3cclipPath%20id='clip1_56034_32'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(18)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip2_56034_32'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(36)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip3_56034_32'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(54)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip4_56034_32'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(72)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="stars">
+                    </div>
+                </div>
+                <div class="hotel">
+                    <div class="img_container">
+                        <img src="./assets/hotel_3-CwKzjunK.png" alt="Hotel Photo">
+                    </div>
+                    <h4>The Oberoi Udaivilas, Udaipur</h4>
+                    <div>
+                        <h6><i class="fa-solid fa-location-dot"></i>Udaipur, India</h6>
+                        <img src="data:image/svg+xml,%3csvg%20width='88'%20height='16'%20viewBox='0%200%2088%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_56034_53)'%3e%3cpath%20d='M8.00002%2012.1733L3.29802%2014.8053L4.34802%209.51992L0.391357%205.86125L5.74269%205.22659L8.00002%200.333252L10.2574%205.22659L15.6087%205.86125L11.652%209.51992L12.702%2014.8053L8.00002%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip1_56034_53)'%3e%3cpath%20d='M26%2012.1733L21.298%2014.8053L22.348%209.51992L18.3914%205.86125L23.7427%205.22659L26%200.333252L28.2574%205.22659L33.6087%205.86125L29.652%209.51992L30.702%2014.8053L26%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip2_56034_53)'%3e%3cpath%20d='M44%2012.1733L39.298%2014.8053L40.348%209.51992L36.3914%205.86125L41.7427%205.22659L44%200.333252L46.2574%205.22659L51.6087%205.86125L47.652%209.51992L48.702%2014.8053L44%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip3_56034_53)'%3e%3cpath%20d='M62%2012.1733L57.298%2014.8053L58.348%209.51992L54.3914%205.86125L59.7427%205.22659L62%200.333252L64.2574%205.22659L69.6087%205.86125L65.652%209.51992L66.702%2014.8053L62%2012.1733ZM62%2010.6453L64.8314%2012.2299L64.1987%209.04792L66.5807%206.84459L63.3587%206.46259L62%203.51659L60.6414%206.46325L57.4194%206.84459L59.8014%209.04792L59.1687%2012.2299L62%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip4_56034_53)'%3e%3cpath%20d='M80%2012.1733L75.298%2014.8053L76.348%209.51992L72.3914%205.86125L77.7427%205.22659L80%200.333252L82.2574%205.22659L87.6087%205.86125L83.652%209.51992L84.702%2014.8053L80%2012.1733ZM80%2010.6453L82.8314%2012.2299L82.1987%209.04792L84.5807%206.84459L81.3587%206.46259L80%203.51659L78.6414%206.46325L75.4194%206.84459L77.8014%209.04792L77.1687%2012.2299L80%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_56034_53'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3cclipPath%20id='clip1_56034_53'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(18)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip2_56034_53'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(36)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip3_56034_53'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(54)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip4_56034_53'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(72)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="stars">
+                    </div>
+                </div>
+                <div class="hotel">
+                    <div class="img_container">
+                        <img src="./assets/hotel_4-B1WXN3ay.png" alt="Hotel Photo">
+                    </div>
+                    <h4>AKA Beverly Hills</h4>
+                    <div>
+                        <h6><i class="fa-solid fa-location-dot"></i>Los Angeles, USA</h6>
+                        <img src="data:image/svg+xml,%3csvg%20width='88'%20height='16'%20viewBox='0%200%2088%2016'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_56034_95)'%3e%3cpath%20d='M8.00002%2012.1733L3.29802%2014.8053L4.34802%209.51992L0.391357%205.86125L5.74269%205.22659L8.00002%200.333252L10.2574%205.22659L15.6087%205.86125L11.652%209.51992L12.702%2014.8053L8.00002%2012.1733Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip1_56034_95)'%3e%3cpath%20d='M62%2012.1733L57.298%2014.8053L58.348%209.51992L54.3914%205.86125L59.7427%205.22659L62%200.333252L64.2574%205.22659L69.6087%205.86125L65.652%209.51992L66.702%2014.8053L62%2012.1733ZM62%2010.6453L64.8314%2012.2299L64.1987%209.04792L66.5807%206.84459L63.3587%206.46259L62%203.51659L60.6414%206.46325L57.4194%206.84459L59.8014%209.04792L59.1687%2012.2299L62%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip2_56034_95)'%3e%3cpath%20d='M26%2012.1733L21.298%2014.8053L22.348%209.51992L18.3914%205.86125L23.7427%205.22659L26%200.333252L28.2574%205.22659L33.6087%205.86125L29.652%209.51992L30.702%2014.8053L26%2012.1733ZM26%2010.6453L28.8314%2012.2299L28.1987%209.04792L30.5807%206.84459L27.3587%206.46259L26%203.51659L24.6414%206.46325L21.4194%206.84459L23.8014%209.04792L23.1687%2012.2299L26%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip3_56034_95)'%3e%3cpath%20d='M80%2012.1733L75.298%2014.8053L76.348%209.51992L72.3914%205.86125L77.7427%205.22659L80%200.333252L82.2574%205.22659L87.6087%205.86125L83.652%209.51992L84.702%2014.8053L80%2012.1733ZM80%2010.6453L82.8314%2012.2299L82.1987%209.04792L84.5807%206.84459L81.3587%206.46259L80%203.51659L78.6414%206.46325L75.4194%206.84459L77.8014%209.04792L77.1687%2012.2299L80%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cg%20clip-path='url(%23clip4_56034_95)'%3e%3cpath%20d='M44%2012.1733L39.298%2014.8053L40.348%209.51992L36.3914%205.86125L41.7427%205.22659L44%200.333252L46.2574%205.22659L51.6087%205.86125L47.652%209.51992L48.702%2014.8053L44%2012.1733ZM44%2010.6453L46.8314%2012.2299L46.1987%209.04792L48.5807%206.84459L45.3587%206.46259L44%203.51659L42.6414%206.46325L39.4194%206.84459L41.8014%209.04792L41.1687%2012.2299L44%2010.6453V10.6453Z'%20fill='%23FFA800'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_56034_95'%3e%3crect%20width='16'%20height='16'%20fill='white'/%3e%3c/clipPath%3e%3cclipPath%20id='clip1_56034_95'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(54)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip2_56034_95'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(18)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip3_56034_95'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(72)'/%3e%3c/clipPath%3e%3cclipPath%20id='clip4_56034_95'%3e%3crect%20width='16'%20height='16'%20fill='white'%20transform='translate(36)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="stars">
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <main class="review" id="reviews">
+            <h5 data-aos="fade-down">Відгуки</h5>
+            <section class="splide" aria-label="Відгуки клієнтів">
+                <div class="splide__arrows">
+                    <button class="splide__arrow splide__arrow--prev" data-aos="fade-right">
+                        <i class="fa-solid fa-chevron-left fa-2xl"></i>
+                    </button>
+                    <button class="splide__arrow splide__arrow--next" data-aos="fade-left">
+                        <i class="fa-solid fa-chevron-right fa-2xl"></i>
+                    </button>
+                </div>
+                <div class="splide__track" data-aos="zoom-in-up">
+                    <ul class="splide__list" id="reviews_list"></ul>
+                </div>
+            </section>
+        </main>
+
+        <main class="about_us" id="about_us">
+            <h5 data-aos="fade-right">Про нас</h5>
+            <p data-aos="zoom-in">МІА-ТУР – це не просто подорожі, це ваша пропуска у світ незабутніх вражень, створених командою професіоналів з індивідуальним підходом до кожного. Ми працюємо для тих, хто прагне відкривати нове, цінує комфорт та якість, і завжди шукає непересічні емоції. Кожна подорож — це незабутні відчуття та радість від пізнання справжнього духу країни. </p>
+            <p data-aos="zoom-in">Ми спеціалізуємося на розробці та організації ексклюзивних індивідуальних турів до найвіддаленіших куточків світу – від затишних куточків Європи та мегаполісів Азії до екзотичних островів Індійського океану . Наші маршрути створюються з урахуванням останніх трендів у сфері туризму та ваших особистих побажань. Ми пишаємося тим, що понад 90% наших клієнтів повертаються до нас знову і знову.
+            </p>
+            <div class="timeline-container">
+                <div class="timeline" data-aos="zoom-in-up">
+                    <div class="timeline-item timeline-item--top-text">
+                        <p class="timeline-text timeline-text-top">Понад 200 клієнтів</p>
+                        <div class="timeline-circle"></div>
+                    </div>
+
+                    <div class="timeline-item timeline-item--bottom-text">
+                        <div class="timeline-circle"></div>
+                        <p class="timeline-text timeline-text-bottom">Тури в 70+ кріїн</p>
+                    </div>
+
+                    <div class="timeline-item timeline-item--top-text">
+                        <p class="timeline-text timeline-text-top">Працюємо з 2008 року</p>
+                        <div class="timeline-circle"></div>
+                    </div>
+
+                    <div class="timeline-item timeline-item--bottom-text">
+                        <div class="timeline-circle"></div>
+                        <p class="timeline-text timeline-text-bottom">Більше 1000 турів</p>
+                    </div>
+                </div>
+            </div>
+            <div class="our_team">
+                <h5 data-aos="fade-down">Наша команда</h5>
+                <div class="team">
+                    <div class="team_item" data-aos="flip-left">
+                        <img src="./assets/marta_photo-CmbHa1-R.png" alt="Москаленко Марта">
+                        <h6>Москаленко Марта</h6>
+                    </div>
+                    <div class="team_item" data-aos="flip-right">
+                        <img src="./assets/alla_photo-CkHi7GU2.png" alt="Островська Алла">
+                        <h6>Островська Алла</h6>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <div class="footer_wrapper">
+            <footer id="contacts">
+                <div class="footer_content">
+                    <div class="footer_top_row" >
+                        <h4 data-aos="fade-right">Мандруй<br>Вивчай<br>Живи</h4>
+                        <div class="contact_info" data-aos="fade-left">
+                            <p>Виникли питання? <br> Зв'яжіться з нами!</p>
+                            <p>mia@miatour.com.ua</p>
+                        </div>
+                    </div>
+                    <div class="footer_bottom_row">
+                        <img src="./assets/miatour-logo-C9YEmAeO.svg" alt="miatour" data-aos="fade-right">
+                        <a href="https://www.facebook.com/miatour.com.ua/" target="_blank" data-aos="fade-left"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </footer>
+
+            <img class="footer_bg" src="./assets/footer-image-bg-COG2xBtd.png" alt="Планета Земля Фонове Зображення">
+        </div>
+</body>
+</html>
